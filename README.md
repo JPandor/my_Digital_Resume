@@ -1,2 +1,3 @@
 # my_Digital_Resume
-My final resume 
+This is a website built using html, css and bootstrap 
+Bootstrap was used quite a bit here
