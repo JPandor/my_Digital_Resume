@@ -20,80 +20,153 @@
         <p class="pb-5 h3">Web Developer</p>
     </header>
 
-
-    <nav class="navbar bg-dark text-light justify-content-around p-3 sticky-top navbar-expand">
-
-        <a href="#Education">Education</a>
-        <a href="#Experience">Experience</a>
-        <a href="#Skills">Skills</a>
-        <a href="#Hobbies">Hobbies</a>
-        <a href="#Contact Details">Contact Details</a>
-
-
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#Education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Hobbies">Hobbies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contact_Details">Contact Details</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
-    <section class="container-fluid">
-        
+
+    <section class="container-fluid bg-dark">
+
         <div class="row">
 
-            <aside class="card text-light col-xs-12 col-md-4 col-lg-3 p-4 order-2">
-                <picture>
+            <aside class="col-xs-12 col-md-4 col-lg-3 p-4 order-md-2">
+                <div class="card p-3 text-dark bg-light ">
+                    <picture>
+                    </picture>
+                    <h3 class="card-title">About</h3>
+                    <p class="card-text">A hardworking and focused individual who has an immaculate eye for debugging.
+                        Also have an immaculate eye.</p>
+                </div>
 
-                </picture>
-                <div>
-                    <h4 class="card-title">About</h4>
-                    <p class="card-text">A hardworking and focused individual who has an immaculate eye for debugging. Also have an immaculate eye
-                        on the president. I watch every single thing he does.</p>
+                <div class="card p-3 mt-5 text-dark bg-light">
+                    <h3 class="card-title">Coding Languages</h3>
+                    <p class="text-center">
+                        <img class="rounded-circle" src="Images/Html.png" alt="Html" width=50rem height=50rem>
+                        <img class="rounded-circle" src="Images/cs.ico" alt="Html" width=55rem height=55rem>
+                        <img class="rounded-circle" src="Images/Bootstrap.png" alt="Html" width=55rem height=55rem>
+                    </p>
                 </div>
             </aside>
 
-            <main class="p-3 col-xs-12 col-md-8 col-lg-9 order-1">
-                <h2 id="Education">Education</h2>
-                <h3>Intro to web at <a href="http://codespace.co.za/" target="_newtab">Codespace Academy</a> </h3>
-                <p>Completed the Intro to web course at codespace academy. We focused on learning the basic fundamentals of
-                    html
-                    and css.
-                </p>
-                <h2 id="Experience">Experience</h2>
-                <h3>Office Job</h3>
-                <h4>Jamiatul Ulama</h4>
-                <ul>
-                    <li>Ran the Jamiatul Ulama office from April 2021 to May 2021</li>
-                    <li>Helped in the collection and distribution of charity</li>
-                    <li>Did administrative work around the office</li>
-                    <li>Contact reference: Mahmood 0740125192</li>
-                </ul>
-                <h3>Teaching</h3>
-                <h4>West Rand Muslim Association</h4>
-                <ul>
-                    <li>Worked as a teacher at the West Rand Muslim Association from 2017 to 2018</li>
-                    <li>Developed Lesson plans for Grade 2-4</li>
-                    <li>Created a productive work environment for the students</li>
-                    <li>Helped organize end of the year Awards Event</li>
-                    <li>Contact reference: Razia 0748632516</li>
-                </ul>
-                <h2 id="Skills">Skills</h2>
-                <ul>
-                    <li>Html</li>
-                    <li>Css</li>
-                    <li>Problem-Solving abilities</li>
-                    <li>Positivity</li>
-                    <li>Self-Motivated</li>
-                </ul>
-                <h2 id="Hobbies">Hobbies</h2>
-                <ul>
-                    <li>Gaming</li>
-                    <li>Coding</li>
-                    <li>Swimming</li>
-                    <li>Outdoor activities</li>
-                </ul>
+            <main class="col-xs-12 col-md-8 col-lg-9 order-md-1 text-light">
+                <div class="p-4">
+                    <h2 id="Education">Education</h2>
+                    <h3>Intro to web at <a href="http://codespace.co.za/" target="_newtab">Codespace Academy</a> </h3>
+                    <p>Completed the Intro to web course at codespace academy. We focused on learning the basic
+                        fundamentals of
+                        html
+                        and css.
+                    </p>
+                </div>
+
+                <div class="row p-4">
+                    <h2 id="Experience">Experience</h2>
+                    <div class="col-md-6">
+                        <h3>Office Job</h3>
+                        <h4>Jamiatul Ulama</h4>
+                        <ul>
+                            <li>Ran the Jamiatul Ulama office from April 2021 to May 2021</li>
+                            <li>Helped in the collection and distribution of charity</li>
+                            <li>Did administrative work around the office</li>
+                            <li>Contact reference: Mahmood 0740125192</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h3>Teaching</h3>
+                        <h4>West Rand Muslim Association</h4>
+                        <ul>
+                            <li>Worked as a teacher at the West Rand Muslim Association from 2017 to 2018</li>
+                            <li>Developed Lesson plans for Grade 2-4</li>
+                            <li>Created a productive work environment for the students</li>
+                            <li>Helped organize end of the year Awards Event</li>
+                            <li>Contact reference: Razia 0748632516</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="p-4">
+                    <h2 id="Skills">Skills</h2>
+                    <ul>
+                        <li>Proficient in Microsoft Office</li>
+                        <li>Problem-Solving abilities</li>
+                        <li>Positivity</li>
+                        <li>Self-Motivated</li>
+                    </ul>
+                </div>
+
+                <div class="p-4">
+                    <h2 id="Hobbies">Hobbies</h2>
+                    <ul>
+                        <li>Gaming</li>
+                        <li>Coding</li>
+                        <li>Swimming</li>
+                        <li>Outdoor activities</li>
+                    </ul>
+                </div>
             </main>
         </div>
 
     </section>
-    <footer class="bg-dark text-center p-4 text-light">
+    <footer class="text-center p-4 text-dark">
         <h2 id="Contact_Details">Contact Details</h2>
-        <a href="mailto:juwairiah1308@gmail.com" target="_newtab"><img class="rounded-circle img-thumbnail mx-auto" src="Images/Gmail.ico" alt="Email Logo" width=50rem height=50rem> </a>
-        <a href="https://www.linkedin.com/in/juwairiah-pandor-3800b7218/" target="_blank"><img class="rounded-circle img-thumbnail mx-auto" src="Images/Linkedin.png" alt="Linkedin" width=50rem height=50rem></a>
+
+        <a href="mailto:juwairiah1308@gmail.com" target="_newtab"><img class="rounded-circle mx-auto"
+                src="Images/Email.png" alt="Email Logo" width=50rem height=50rem> </a>
+
+        <a href="https://www.linkedin.com/in/juwairiah-pandor-3800b7218/" target="_blank"><img
+                class="rounded-circle mx-auto" src="Images/Linkedin.png" alt="Linkedin" width=50rem height=50rem></a>
+
+        <a href="https://github.com/JPandor" target="_blank"><img class="rounded-circle mx-auto" src="Images/Github.png"
+                alt="Github" width=50rem height=50rem></a>
+
+        <!-- Button trigger modal -->
+        <button type="image" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            <img class="rounded-circle" style="padding: 0;" src="Images/Phone.png" alt="Phone" width=50rem height=50rem>
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Contact me</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        0723480610
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 
 

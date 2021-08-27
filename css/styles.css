@@ -5,17 +5,19 @@ header {
     background-size: cover;
 }
 
-  main {
+main {
       font-size: 17px;
-      background-color: #D5D2DA;
-  }
+}
+
+section {
+    background-image: url(../images/bg_image1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
 
-.card  {
-    background-color: #282A3E;
-  }
-
-  body{
+body{
     animation-name: text-focus-in;
     animation-duration: 1s;
     animation-timing-function: ease;
@@ -23,9 +25,9 @@ header {
     animation-iteration-count: 1;
     animation-direction: normal;
     animation-fill-mode: none;
-  }
+}
 
-  @keyframes text-focus-in {
+@keyframes text-focus-in {
     0%{
       filter: blur(12px);
       opacity: 0;
@@ -34,17 +36,23 @@ header {
       filter: blur(0);
       opacity: 1;
     }
-  }
+}
 
+footer {
+    background-color: #D3DBEE
+}
 
-  footer img:hover {
+footer img {
+    border: 2px solid black;
+}
+
+footer img:hover {
     animation-name: icon-logo;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-  }
-  
-  
+}
+   
 @keyframes icon-logo{
     0% {width: 50px;
       height: 50px;}
@@ -54,4 +62,4 @@ header {
     100% {width: 50px;
       height: 50px;}
   
-  }
+}
