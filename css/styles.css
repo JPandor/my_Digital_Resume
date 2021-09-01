@@ -1,5 +1,5 @@
 header {
-  background-image: url(../images/bg_image1.jpg);
+  background-image: url(../Images/bg_image1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -7,7 +7,7 @@ header {
 
 
 main {
-background-image: url(../images/blue_bg.jpg);
+background-image: url(../Images/blue_bg.jpg);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
